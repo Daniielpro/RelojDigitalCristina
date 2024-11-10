@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Digital PYTHON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        #clock {
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<div>
+	<h2>RELOJ DIGITAL PYTHON</h2>
+<div>
+    <div id="clock">00:00:00</div>
+
+    <script>
+        // Función para actualizar el reloj
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');   // Añade ceros a la izquierda si es necesario
+            const minutes = String(now.getMinutes()).padStart(2, '0');  // Añade ceros a la izquierda si es necesario
+            const seconds = String(now.getSeconds()).padStart(2, '0');  // Añade ceros a la izquierda si es necesario
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+
+        // Actualizar el reloj cada segundo
+        setInterval(updateClock, 1000);
+        updateClock();  // Llama inmediatamente para mostrar la hora al cargar
+    </script>
+</body>
+</html>
