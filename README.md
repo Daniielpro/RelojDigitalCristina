@@ -37,31 +37,7 @@ Abre tu navegador y ve a http://localhost:5001 para ver el reloj en acción.
     Flask: Framework ligero para la creación de aplicaciones web.
     HTML y CSS: Para estructurar y dar estilo a la página web.
     JavaScript: Para actualizar la hora en el reloj cada segundo.
-## Contribuciones
-Si deseas colaborar en este proyecto, por favor sigue estos pasos:
 
-1. Haz un Fork del repositorio
-Haz un fork del repositorio para crear tu propia copia del proyecto en tu cuenta de GitHub. Para hacer un fork, simplemente haz clic en el botón Fork en la parte superior derecha de la página del repositorio en GitHub.
-
-2. Clona tu Fork
-Clona tu fork a tu máquina local para poder trabajar en el código:
-
-    git clone https://github.com/Cristina-Colcha/RelojDigital.git
-3. Crea una Rama Nueva
-Es recomendable crear una nueva rama para tu contribución. Asegúrate de no trabajar directamente en la rama main o master. 
-
-    git checkout -b nombre-de-tu-rama
-4. Realiza los Cambios
-Haz los cambios que deseas en el código. Asegúrate de que tu código sigue las mejores prácticas de estilo y que está documentado correctamente. Si agregas nuevas funcionalidades, asegúrate de explicar cómo funciona en el código o en la documentación.
-5. Realiza un Commit
-Una vez que hayas realizado tus cambios, haz un commit de tus modificaciones:
-
-    git add .
-    git commit -m "Descripción de los cambios realizados"
-6. Sube tus Cambios
-Sube tus cambios a tu fork en GitHub:
-
-    git push origin nombre-de-tu-rama
 ## Autor
 Autor: Cristina Colcha
 Este README está organizado en un solo bloque con toda la información detallada, y cada sección se describe claramente para una comprensión rápida.
