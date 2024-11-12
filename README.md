@@ -16,7 +16,7 @@ Flask: Necesitas instalar Flask. Puedes instalarlo usando pip.
 ### Pasos de instalación
 Clonar el repositorio:
 
-    git clone https://github.com/tu_usuario/reloj_digital.git
+    git clone https://github.com/Cristina-Colcha/RelojDigital.git
 Navegar al directorio del proyecto:
 
     cd reloj_digital
