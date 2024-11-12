@@ -3,10 +3,14 @@ Este proyecto es una aplicación web simple desarrollada en Python utilizando el
 
 ## Estructura del Proyecto
 
-reloj_digital/
+-reloj_digital/
+
     app.py              # Código principal de la aplicación Flask
+
     templates/
+
         index.html      # Página HTML que muestra el reloj
+        
     README.md           # Instrucciones del proyecto
 ## Instalación
 ### Prerrequisitos
