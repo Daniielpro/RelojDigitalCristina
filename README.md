@@ -1,44 +1,37 @@
-## Reloj Digital Python
-Este proyecto es una aplicación web simple desarrollada en Python utilizando el framework Flask. La aplicación muestra un reloj digital en tiempo real que se actualiza cada segundo, desarrollado con HTML, CSS, y JavaScript.
-
-## Estructura del Proyecto
-
-    /reloj_digital
+ 
+## Python Digital Clock
+This project is a simple web application developed in Python using the Flask framework. The application displays a real-time digital clock that updates every second, developed with HTML, CSS, and JavaScript.
+## Project Structure
+    /digital_clock
     │
-    ├── app.py              # Código principal de la aplicación Flask
-    ├── templates/
-    │   └── index.html      # Página HTML que muestra el reloj
-    └── README.md           # Instrucciones del proyecto
-## Instalación
-### Prerrequisitos
-Python 3.x: Asegúrate de tener Python 3.x instalado.
-Flask: Necesitas instalar Flask. Puedes instalarlo usando pip.
-### Pasos de instalación
-Clonar el repositorio:
-
+    ├── app.py # Flask application main code.
+    ├─── templates/
+    │ └└─── index.html # HTML page displaying the clock.
+    └└─── README.md # Project instructions.
+## Installation
+### Prerequisites.
+Python 3.x: Make sure you have Python 3.x installed.
+Flask: You need to install Flask. You can install it using pip.
+### Installation steps
+Clone the repository:
     git clone https://github.com/Cristina-Colcha/RelojDigital.git
-Navegar al directorio del proyecto:
-
-    cd reloj_digital
-Instalar Flask: Si Flask no está instalado en tu sistema, instálalo con el siguiente comando:
-
+Navigate to the project directory:
+    cd digital_clock
+Install Flask: If Flask is not installed on your system, install it with the following command:
 pip install flask
-### Ejecución
-Ejecuta la aplicación Flask con el siguiente comando:
-
+### Execution
+Run the Flask application with the following command:
     python app.py
-Abre tu navegador y ve a http://localhost:5001 para ver el reloj en acción.
-
-### Uso
-    Abre http://localhost:5001 en tu navegador.
-    La página mostrará el reloj digital, que se actualizará automáticamente cada segundo para reflejar la hora actual.
-## Tecnologías Utilizadas
-    Python: Para la implementación del backend utilizando Flask.
-    Flask: Framework ligero para la creación de aplicaciones web.
-    HTML y CSS: Para estructurar y dar estilo a la página web.
-    JavaScript: Para actualizar la hora en el reloj cada segundo.
-
-## Autor
-Autor: Cristina Colcha
-Este README está organizado en un solo bloque con toda la información detallada, y cada sección se describe claramente para una comprensión rápida.
+Open your browser and go to http://localhost:5001 to see the watch in action.
+### Usage
+    Open http://localhost:5001 in your browser.
+    The page will display the digital clock, which will automatically update every second to reflect the current time.
+## Technologies Used
+    Python: For the backend implementation using Flask.
+    Flask: Lightweight framework for creating web applications.
+    HTML and CSS: For structuring and styling the web page.
+    JavaScript: To update the time on the clock every second.
+## Author
+Author: Cristina Colcha
+This README is organized in a single block with all the detailed information, and each section is clearly described for quick understanding.
 
